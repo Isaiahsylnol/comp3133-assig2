@@ -1,0 +1,49 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/yeti/bootstrap.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css";
+
+li {
+  padding: 15px;
+  margin: 14px;
+  list-style: none;
+}
+
+#click_cell {
+  width: 100%;
+
+  background-color: rgb(245, 244, 244);
+  border: solid 0.5px;
+}
+
+#info {
+  display: grid;
+  padding: 25px;
+}
+
+.cell_info {
+  float: left;
+}
+
+.content {
+  margin-top: 9em;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #8e19d2;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar img {
+  margin: 0 16px;
+}
+
+.navSearch {
+  float: left;
+}
